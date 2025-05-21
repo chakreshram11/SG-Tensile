@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import BannerImage from '../components/BannerImage';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,7 +52,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="pt-20 min-h-screen bg-gray-50">
+    <div className="pt-16 min-h-screen bg-gray-50">
+      <BannerImage
+        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+        alt="Our Work Banner"
+      />
       <section className="py-16 sm:py-20 lg:py-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
           {/* Header */}

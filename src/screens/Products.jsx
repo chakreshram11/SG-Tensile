@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerImage from '../components/BannerImage';
 
 const Products = () => {
   const products = [
@@ -29,7 +30,11 @@ const Products = () => {
   ];
 
   return (
-    <div className="pt-20">
+    <div className="pt-16">
+      <BannerImage
+        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
+        alt="Our Work Banner"
+      />
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
