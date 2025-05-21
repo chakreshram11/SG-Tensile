@@ -10,12 +10,15 @@ import Contact from './screens/Contact';
 import Consultancy from './screens/Consultancy';
 import Blogs from './screens/Blogs';
 import OurWork from './screens/OurWork';
+import ScrollToTop from './components/ScrollToTop';
+
 
 
 function App() {
   return (
     <Router>
       <Header />
+      <ScrollToTop />
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

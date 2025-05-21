@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Blogs = () => {
   const Blogs = [
     {
@@ -24,6 +25,7 @@ const Blogs = () => {
 
   return (
     <div className="pt-20">
+      
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">

@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Our_Work() {
+const OurWork = () => {
   return (
-    <div ClassName="mt-7">
-      our work
+    <div className="container mx-auto mt-9 pt-9">
+      <h1 className="text-3xl font-bold text-gray-800">Our Work</h1>
+      <p className="mt-4 text-gray-600">This is the Our Work page.</p>
     </div>
-  )
-}
+  );
+};
 
-export default Our_Work
+export default OurWork;

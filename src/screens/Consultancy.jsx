@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Consultancy = () => {
   const images = [
     'https://images.unsplash.com/photo-1563832605-2d1054962d84', // Example image 1
@@ -9,6 +10,7 @@ const Consultancy = () => {
 
   return (
     <div className="pt-20">
+     
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center mb-16">
