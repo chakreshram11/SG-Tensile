@@ -10,6 +10,7 @@ import Contact from './screens/Contact';
 import Consultancy from './screens/Consultancy';
 import Blogs from './screens/Blogs';
 import OurWork from './screens/OurWork';
+import ProjectDetail from './screens/ProjectDetail';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/products' element={<Products />} />
         <Route path='/services' element={<Services />} />
         <Route path='/ourwork' element={<OurWork />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
         <Route path='/Blogs' element={<Blogs />} />
         <Route path='/consultancy' element={<Consultancy />} />
         <Route path='/contact' element={<Contact />} />
