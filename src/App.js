@@ -12,7 +12,8 @@ import Blogs from './screens/Blogs';
 import OurWork from './screens/OurWork';
 import ProjectDetail from './screens/ProjectDetail';
 import ScrollToTop from './components/ScrollToTop';
-
+import Application from './screens/Application';
+import TransformingUrbanSpaces from './screens/TransformingUrbanSpaces'
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
         <Route path='/Blogs' element={<Blogs />} />
         <Route path='/consultancy' element={<Consultancy />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/applications' element={<Application />} />
+        <Route path='/transforming-urban-sapces' element={<TransformingUrbanSpaces />} /> 
       </Routes>
       <Footer />
     </Router>

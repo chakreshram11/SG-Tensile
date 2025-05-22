@@ -53,7 +53,7 @@ const TensileMeshComponent = () => {
 
       {/* Arrow to Projects */}
       <div className="flex justify-center mb-8">
-        <Link to="/projects">
+        <Link to="/transforming-urban-sapces">
           <svg
             className="w-12 h-6 text-gray-600 hover:text-black transition-colors duration-200"
             fill="none"
