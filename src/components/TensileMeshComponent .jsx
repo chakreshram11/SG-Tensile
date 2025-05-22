@@ -6,7 +6,7 @@ const TensileMeshComponent = () => {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
 
       {/* First Section with Link */}
-      <Link to="/applications" className="text-center mb-8 hover:scale-105 transition-transform duration-300">
+      <Link to="/application" className="text-center mb-8 hover:scale-105 transition-transform duration-300">
         <img
           src="/path-to-your-image.jpg" // Replace with actual image path
           alt="Tensile Mesh"
@@ -20,7 +20,7 @@ const TensileMeshComponent = () => {
 
       {/* Arrow to Applications */}
       <div className="flex justify-center mb-8">
-        <Link to="/applications">
+        <Link to="/application">
           <svg
             className="w-12 h-6 text-gray-600 hover:text-black transition-colors duration-200"
             fill="none"
@@ -39,7 +39,7 @@ const TensileMeshComponent = () => {
       </div>
 
       {/* Second Section with Link */}
-      <Link to="/projects" className="text-center mb-8 hover:scale-105 transition-transform duration-300">
+      <Link to="/transforming-urban-sapces" className="text-center mb-8 hover:scale-105 transition-transform duration-300">
         <img
           src="/path-to-your-image.jpg" // Replace with actual image path
           alt="Architectural Projects"

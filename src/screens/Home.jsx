@@ -105,6 +105,31 @@ const Home = () => {
         <BoxLinksSection boxes={boxes} />
       </div>
 
+      {/* Box Links Section Two with Background Image */}
+      <div className="relative">
+        {/* Background Image Section */}
+        <div
+          className="w-full h-80 bg-[url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center bg-no-repeat relative before:content-[''] before:absolute before:inset-0 before:bg-gray-500/50"
+        ></div>
+        {/* Boxes Section */}
+        <div className="relative">
+          <BoxLinksSectionTwo boxes={boxesTwo} />
+        </div>
+        {/* Background Image Section */}
+        <div
+          className="w-full h-80 bg-[url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center bg-no-repeat relative before:content-[''] before:absolute before:inset-0 before:bg-gray-500/50"
+        >
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <h2 className="text-white text-3xl md:text-4xl font-bold">
+              It’s all in the detail.
+            </h2>
+          </div>
+        </div>
+        </div>
+      <div>
+        <TensileMeshComponent />
+      </div>
+
       {/* Features Section */}
       <section className="py-16 z-10 sm:py-20 lg:py-24 bg-white">
         <div className="container mx-auto px-6">

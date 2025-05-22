@@ -14,6 +14,8 @@ import ProjectDetail from './screens/ProjectDetail';
 import ScrollToTop from './components/ScrollToTop';
 import OurJourney from './screens/OurJourney';
 import OurTeam from './screens/OurTeam';
+import Application from './screens/Application';
+import TransformingUrbanSpaces from './screens/TransformingUrbanSpaces';
 
 
 
@@ -34,6 +36,8 @@ function App() {
         <Route path='/Blogs' element={<Blogs />} />
         <Route path='/consultancy' element={<Consultancy />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/application' element={<Application />} />
+        <Route path='/transforming-urban-sapces' element={<TransformingUrbanSpaces />} />
       </Routes>
       <Footer />
     </Router>
