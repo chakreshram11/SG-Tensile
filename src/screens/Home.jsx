@@ -3,7 +3,9 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import TensileCanvas from '../components/TensileCanvas';
 import BoxLinksSection from '../components/BoxLinksSection';
-import ScrollToTop from '../components/ScrollToTop'; // Import the new component
+import BoxLinksSectionTwo from '../components/BoxLinksSectionTwo';
+import TensileMeshComponent from '../components/TensileMeshComponent ';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Home = () => {
   const boxes = [
@@ -43,6 +45,13 @@ const Home = () => {
       image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80',
     },
   ];
+
+    const boxesTwo = [
+      { type: 'image', image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80' }, // Top row, first box (square, image)
+      { type: 'link', title: 'Your Tensile Architecture Specialist', description: 'Tensile design & construct are specialist suppliers and installers of tensile architectural solutions. From structural cables and rods to tensioned mesh we have the fittings and the knowledge on their specification, application and installation. Tensile uses the best products from around the globe to provide our clients with the right tensile member for their project. Tensile architecture is an exciting industry covering many facets from bracing cables to green facades through to new and creative balustrades.'}, // Top row, second box (rectangle, description)
+      { type: 'link', title: '', description: 'Tensile were professional, flexible and efficient. They worked well with a variety of artists and other professionals to deliver a high quality result within the constraints of the job. (Sydney City Council)'}, // Bottom row, first box (square, description)
+      { type: 'image', image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80' }, // Bottom row, second box (rectangle, image)
+    ];
 
   const features = [
     {
@@ -96,8 +105,33 @@ const Home = () => {
         <BoxLinksSection boxes={boxes} />
       </div>
 
+      {/* Box Links Section Two with Background Image */}
+      <div className="relative">
+        {/* Background Image Section */}
+        <div
+          className="w-full h-80 bg-[url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center bg-no-repeat relative before:content-[''] before:absolute before:inset-0 before:bg-gray-500/50"
+        ></div>
+        {/* Boxes Section */}
+        <div className="relative">
+          <BoxLinksSectionTwo boxes={boxesTwo} />
+        </div>
+        {/* Background Image Section */}
+        <div
+          className="w-full h-80 bg-[url('https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80')] bg-cover bg-center bg-no-repeat relative before:content-[''] before:absolute before:inset-0 before:bg-gray-500/50"
+        >
+          <div className="absolute inset-0 flex items-center justify-center z-10">
+            <h2 className="text-white text-3xl md:text-4xl font-bold">
+              It’s all in the detail.
+            </h2>
+          </div>
+        </div>
+        </div>
+      <div>
+        <TensileMeshComponent />
+      </div>
+
       {/* Features Section */}
-      <section className="py-16 sm:py-20 lg:py-24 bg-white">
+      <section className="py-16 z-10 sm:py-20 lg:py-24 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="tracking-tight">Why Choose Our Tensile Solutions</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
