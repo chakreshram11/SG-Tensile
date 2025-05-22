@@ -95,7 +95,6 @@ const Home = () => {
       <div className="relative -mt-0 sm:-mt-40 md:-mt-48 z-20">
         <BoxLinksSection boxes={boxes} />
       </div>
-
       {/* Features Section */}
       <section className="py-16 sm:py-20 lg:py-24 bg-white">
         <div className="container mx-auto px-6">

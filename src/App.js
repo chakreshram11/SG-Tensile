@@ -12,6 +12,8 @@ import Blogs from './screens/Blogs';
 import OurWork from './screens/OurWork';
 import ProjectDetail from './screens/ProjectDetail';
 import ScrollToTop from './components/ScrollToTop';
+import OurJourney from './screens/OurJourney';
+import OurTeam from './screens/OurTeam';
 
 
 
@@ -23,6 +25,8 @@ function App() {
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/about/ourteam' element={<OurTeam />} />
+        <Route path='/about/ourjourney' element={<OurJourney />} />
         <Route path='/products' element={<Products />} />
         <Route path='/services' element={<Services />} />
         <Route path='/ourwork' element={<OurWork />} />
