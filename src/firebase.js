@@ -3,12 +3,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.REACT_FIREBASE_API_KEY,
-  authDomain: import.meta.env.REACT_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.REACT_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.REACT_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.REACT_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.REACT_FIREBASE_APP_ID,
+  apiKey: "AIzaSyANdCoJuTQ6GGIGL_emc0kBtx2JNC6h_mw",
+  authDomain: "sg-tensiles.firebaseapp.com",
+  projectId: "sg-tensiles",
+  storageBucket: "sg-tensiles.appspot.com",
+  messagingSenderId: "374161068767",
+  appId: "1:374161068767:web:37d306c6b7321ebdc10f6a",
 };
 
 const app = initializeApp(firebaseConfig);
