@@ -8,19 +8,18 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Office Locations */}
-          <div className="space-y-4">
-            <h3 className="font-semibold text-lg">Sydney Office</h3>
-            <p className="text-blue-600 hover:text-blue-800">
-              <a href="tel:0299993668">02 9999 3668</a>
-            </p>
-            <p>PO Box 967,</p>
-            <p>Mona Vale 2103 NSW</p>
+          <div>
+            <h3 className="font-semibold text-lg">Indian Head Office</h3>
+            <p>55-35-8/3,</p>
+            <p>HB Colony, Seethammadhara,</p>
+            <p>Visakhapatnam, 530022,</p>
+            <p>Andhra Pradesh, India.</p>
 
             <div className="mt-8">
-              <h3 className="font-semibold text-lg">Melbourne Office</h3>
-              <p className="text-blue-600 hover:text-blue-800">
-                <a href="tel:0433707703">0433 707 703</a>
-              </p>
+              <h3 className="font-semibold text-lg">Malaysian Head Office</h3>
+              <p>Everest Tent Technologies SDN BHD </p>
+              <p>5, Jalan, SEC 3/3, Kajang Utama,</p>
+              <p>Kajang 43000, Selangor D. E. Malaysia.</p>
             </div>
           </div>
 
@@ -31,7 +30,7 @@ const Footer = () => {
               <li><Link to="/" className="hover:text-blue-600">Home</Link></li>
               <li><Link to="/ourwork" className="hover:text-blue-600">Our Work</Link></li>
               <li><Link to="/consultancy" className="hover:text-blue-600">Consultancy</Link></li>
-              <li><Link to="/awards" className="hover:text-blue-600">Awards</Link></li>
+              {/* <li><Link to="/awards" className="hover:text-blue-600">Awards</Link></li> */}
               <li><Link to="/blogs" className="hover:text-blue-600">Blog</Link></li>
             </ul>
           </div>

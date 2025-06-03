@@ -167,10 +167,10 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-800">Email</h3>
                     <p className="text-gray-600 mt-1">
                       <a
-                        href="mailto:info@company.com"
+                        href="mailto:sudheer@sgtensiles.com"
                         className="hover:text-indigo-600 transition-colors"
                       >
-                        info@company.com
+                        sudheer@sgtensiles.com
                       </a>
                     </p>
                   </div>
@@ -181,10 +181,10 @@ const Contact = () => {
                     <h3 className="text-lg font-semibold text-gray-800">Phone</h3>
                     <p className="text-gray-600 mt-1">
                       <a
-                        href="tel:+15551234567"
+                        href="tel:+919000 88 0037"
                         className="hover:text-indigo-600 transition-colors"
                       >
-                        (555) 123-4567
+                        (+91) 9000 88 0037
                       </a>
                     </p>
                   </div>
@@ -194,8 +194,8 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-800">Address</h3>
                     <p className="text-gray-600 mt-1">
-                      123 Business Street<br />
-                      New York, NY 10001
+                      55-35-8/3, Sri Sai Nelayam, <br />
+                      HB Colony, Visakhapatnam, 530022,<br /> Andhra Pradesh, India.
                     </p>
                   </div>
                 </div>

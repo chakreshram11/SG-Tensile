@@ -31,13 +31,13 @@ const BoxLinksSectionTwo = ({ boxes = [] }) => {
 
         {/* Medium and Larger Screens: Custom layout */}
         <div className="hidden md:block">
-          {/* Top Row: Square (image) left, Rectangle (description) right */}
+          {/* Top Row: Rectangle (image) left, Square (description) right */}
           <div className="grid grid-cols-3">
             {boxes.slice(0, 2).map((box, index) => (
               <div
                 key={index}
                 className={`relative group overflow-hidden rounded-none ${
-                  index === 0 ? 'col-span-1 aspect-[1/1]' : 'col-span-2 aspect-[2/1]'
+                  index === 0 ? 'col-span-2 aspect-[2/1]' : 'col-span-1 aspect-[1/1]'
                 }`}
               >
                 {index === 0 && box.type === 'image' ? (
@@ -68,7 +68,7 @@ const BoxLinksSectionTwo = ({ boxes = [] }) => {
           </div>
 
           {/* Bottom Row: Square (description) left, Rectangle (image, big) right */}
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-3 mt-2">
             {boxes.slice(2, 4).map((box, index) => (
               <div
                 key={index}

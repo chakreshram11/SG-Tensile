@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const TensileMeshComponent = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-6">
 
       {/* First Section with Link */}
       <Link to="/application" className="text-center mb-8 hover:scale-105 transition-transform duration-300">
