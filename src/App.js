@@ -10,10 +10,8 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './screens/Home';
 import About from './screens/About';
 import Products from './screens/Products';
-import Services from './screens/Services';
 import Contact from './screens/Contact';
 import Consultancy from './screens/Consultancy';
-import Blogs from './screens/Blogs';
 import OurWork from './screens/OurWork';
 import ProjectDetail from './screens/ProjectDetail';
 import OurJourney from './screens/OurJourney';
@@ -35,10 +33,8 @@ function App() {
           <Route path="/about/ourteam" element={<OurTeam />} />
           <Route path="/about/ourjourney" element={<OurJourney />} />
           <Route path="/products" element={<Products />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/ourwork" element={<OurWork />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
-          <Route path="/blogs" element={<Blogs />} />
           <Route path="/consultancy" element={<Consultancy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/application" element={<Application />} />

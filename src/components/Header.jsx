@@ -32,8 +32,6 @@ const Header = () => {
     },
     { to: '/ourwork', text: 'Our Work' },
     { to: '/products', text: 'Products' },
-    { to: '/services', text: 'Services' },
-    { to: '/blogs', text: 'Blogs' },
     { to: '/consultancy', text: 'Consultancy' },
     { to: '/contact', text: 'Contact' },
   ];

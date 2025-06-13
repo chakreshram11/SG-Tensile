@@ -68,7 +68,7 @@ const Home = () => {
       <ScrollToTop />
 
       {/* Hero Section with ONLY Video */}
-        <div className="relative h-[70vh] sm:h-[80vh] md:h-[90vh] min-h-screen overflow-hidden z-10">
+        <div className="relative h-[70vh] sm:h-[80vh] md:h-[90vh] md:min-h-screen overflow-hidden z-10">
           <BackgroundVideo />
         </div>
 
