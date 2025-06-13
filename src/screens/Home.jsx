@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import BackgroundVideo from '../components/BackgroundVideo';
 import BoxLinksSection from '../components/BoxLinksSection';
 import BoxLinksSectionTwo from '../components/BoxLinksSectionTwo';
-import TensileMeshComponent from '../components/TensileMeshComponent ';
 import ScrollToTop from '../components/ScrollToTop';
 import OneOne from '../assets/OneOne.jpg';
 import OneTwo from '../assets/OneTwo.jpg';
@@ -125,9 +124,6 @@ const Home = () => {
           </div>
         </div>
         </div>
-      <div>
-        <TensileMeshComponent />
-      </div>
     </div>
   );
 };

@@ -16,7 +16,6 @@ import OurWork from './screens/OurWork';
 import ProjectDetail from './screens/ProjectDetail';
 import OurJourney from './screens/OurJourney';
 import OurTeam from './screens/OurTeam';
-import Application from './screens/Application';
 import TransformingUrbanSpaces from './screens/TransformingUrbanSpaces';
 import UsedItems from './components/UsedItems';
 
@@ -37,7 +36,6 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetail />} />
           <Route path="/consultancy" element={<Consultancy />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/application" element={<Application />} />
           <Route path="/transforming-urban-spaces" element={<TransformingUrbanSpaces />} />
         </Routes>
       </div>
