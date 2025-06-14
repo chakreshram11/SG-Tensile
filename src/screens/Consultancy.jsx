@@ -96,14 +96,6 @@ const Consultancy = () => {
                     <p className="text-sm text-gray-600 mt-1 line-clamp-2">
                       {service.description}
                     </p>
-                    <div className="mt-3">
-                      <button
-                        className="text-indigo-600 hover:underline text-sm font-medium"
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        Learn More
-                      </button>
-                    </div>
                   </div>
                 </div>
               ))}
