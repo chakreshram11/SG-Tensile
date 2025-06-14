@@ -1,13 +1,9 @@
 import React from 'react';
-import BannerImage from '../components/BannerImage';
+
 
 function About() {
   return (
     <div className="pt-10 min-h-screen bg-gray-50">
-      <BannerImage
-        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-        alt="Our Work Banner"
-      />
       <div className='px-4 py-10 sm:px-8 md:px-16 lg:px-24 max-w-screen-xl mx-auto mt-10'>
       <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-8 text-center leading-tight">
         Welcome to SG Tensile

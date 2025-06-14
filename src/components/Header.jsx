@@ -22,14 +22,7 @@ const Header = () => {
 
   const navLinks = [
     { to: '/', text: 'Home' },
-    {
-      text: 'About',
-      subLinks: [
-        { to: '/about', text: 'About' },
-        { to: '/about/ourjourney', text: 'Our Journey' },
-        { to: '/about/ourteam', text: 'Our Team' },
-      ],
-    },
+    { to: '/about', text: 'About' },
     { to: '/ourwork', text: 'Our Work' },
     { to: '/products', text: 'Products' },
     { to: '/consultancy', text: 'Consultancy' },

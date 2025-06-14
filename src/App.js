@@ -14,8 +14,6 @@ import Contact from './screens/Contact';
 import Consultancy from './screens/Consultancy';
 import OurWork from './screens/OurWork';
 import ProjectDetail from './screens/ProjectDetail';
-import OurJourney from './screens/OurJourney';
-import OurTeam from './screens/OurTeam';
 import TransformingUrbanSpaces from './screens/TransformingUrbanSpaces';
 import UsedItems from './components/UsedItems';
 
@@ -29,8 +27,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/about/ourteam" element={<OurTeam />} />
-          <Route path="/about/ourjourney" element={<OurJourney />} />
           <Route path="/products" element={<Products />} />
           <Route path="/ourwork" element={<OurWork />} />
           <Route path="/project/:id" element={<ProjectDetail />} />

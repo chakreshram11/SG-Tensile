@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../firebase'; // Adjust path to your Firebase config
-import BannerImage from '../components/BannerImage';
+
 
 const Consultancy = () => {
   const [services, setServices] = useState([]);
@@ -47,10 +47,6 @@ const Consultancy = () => {
 
   return (
     <div className="pt-4 sm:pt-8 md:pt-16">
-      <BannerImage
-        src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
-        alt="Consultancy Banner"
-      />
       <section className="bg-gradient-to-b from-gray-50 to-gray-100 py-8 sm:py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-8 sm:mb-12 md:mb-16">
