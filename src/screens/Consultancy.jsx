@@ -87,9 +87,6 @@ const Consultancy = () => {
                     }}
                   />
                   <div className="p-4">
-                    <span className="text-sm font-medium text-indigo-500 uppercase">
-                      {service.category}
-                    </span>
                     <h3 className="text-lg font-semibold text-gray-800 mt-1">
                       {service.title}
                     </h3>
