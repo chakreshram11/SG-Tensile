@@ -2,15 +2,17 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
+// Load environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyANdCoJuTQ6GGIGL_emc0kBtx2JNC6h_mw",
-  authDomain: "sg-tensiles.firebaseapp.com",
-  projectId: "sg-tensiles",
-  storageBucket: "sg-tensiles.appspot.com",
-  messagingSenderId: "374161068767",
-  appId: "1:374161068767:web:37d306c6b7321ebdc10f6a",
+  apiKey: process.env.VITE_FIREBASE_API_KEY,
+  authDomain: process.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.VITE_FIREBASE_APP_ID,
 };
 
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
 export const auth = getAuth(app);
